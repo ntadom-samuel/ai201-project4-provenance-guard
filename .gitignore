@@ -1,0 +1,13 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local database (regenerated at runtime)
+audit_log.db
+
+# OS
+.DS_Store
